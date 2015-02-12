@@ -19,4 +19,9 @@ Backend (DBMS, save broadcasted-over-the-network data to influxdb) and frontend 
 
 Json static files are handled and mantained by data managers for fast resuming.
 
-TODO: ECDSA authenticator for broadcasters, custom authentication for clients.
+To be done ASAP: ECDSA authenticator for broadcasters, custom authentication for clients.
+
+How to contribute? 
+- Write your own announcer, for a service you would be see as advertised on the network.
+- Do unit tests of the already existing code.
+- Report the many bugs you will encounter :-)
