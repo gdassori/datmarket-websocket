@@ -1,0 +1,18 @@
+{
+   "pid": 3851,
+   "options": {
+      "reactor": null,
+      "loglevel": "info",
+      "command": "start",
+      "logdir": null,
+      "debug": false,
+      "config": "/home/guido/crs/.crossbar_frontend/config.json",
+      "cbdir": "/home/guido/crs/.crossbar_frontend"
+   },
+   "argv": [
+      "/usr/local/bin/crossbar",
+      "start",
+      "--cbdir",
+      "/home/guido/crs/.crossbar_frontend"
+   ]
+}
