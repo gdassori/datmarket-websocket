@@ -1,5 +1,5 @@
 # datmarket-websocket
-An event driven decentralized network prototype to broadcast financial informations based on Tavendo frameworks and InfluxDB.
+An event driven decentralized network prototype to broadcast financial informations.
 
 What is this? What it do ?
 - Collect data from financial sources (i.e., Bitcoin exchanges, Yahoo Financial API, etc.)
