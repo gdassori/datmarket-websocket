@@ -1,5 +1,5 @@
 # datmarket-websocket
-An event driven network prototype to broadcast financial informations based on Tavendo frameworks and InfluxDB.
+An event driven decentralized network prototype to broadcast financial informations based on Tavendo frameworks and InfluxDB.
 
 What is this? What it do ?
 - Collect data from financial sources (i.e., Bitcoin exchanges, Yahoo Financial API, etc.)
@@ -18,3 +18,5 @@ Dependencies:
 Backend (DBMS, save broadcasted-over-the-network data to influxdb) and frontend (real2real proxy and JS clients events binder) main components are handled by Crossbar.io router, announcers (could be delocalizated) need valid credentials to join the network, as well as data managers like OHLC builders.
 
 Json static files are handled and mantained by data managers for fast resuming.
+
+TODO: ECDSA authenticator for broadcasters, custom authentication for clients.
