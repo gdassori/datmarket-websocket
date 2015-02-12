@@ -1,7 +1,7 @@
 # datmarket-websocket
 An event driven decentralized network prototype to broadcast financial informations.
 
-What is this? What it do ?
+What is this? What it does ?
 - Collect data from financial sources (i.e., Bitcoin exchanges, Yahoo Financial API, etc.)
 - Broadcast real time events
 - Render OHLC and broadcast them as soon as available
