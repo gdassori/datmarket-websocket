@@ -20,6 +20,7 @@ Backend (DBMS, save broadcasted-over-the-network data to influxdb) and frontend 
 Json static files are handled and mantained by data managers for fast resuming.
 
 To be done ASAP: ECDSA authenticator for broadcasters, custom authentication for clients.
+Next step: Different wamp routers have to be able to talk each other and replicate informations across the network.
 
 How to contribute? 
 - Write your own announcer, for a service you would be see as advertised on the network.
