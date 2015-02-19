@@ -4,7 +4,7 @@ An event driven decentralized network prototype to broadcast financial informati
 What is this? What it does ?
 - Collect data from financial sources (i.e., Bitcoin exchanges, Yahoo Financial API, etc.)
 - Broadcast real time events
-- Render OHLC and broadcast them as soon as available
+- Render OHLC and broadcast as soon as available
 - Set up 'channels' over a WAMP realm, which could be subscribed by SaaS
 
 Dependencies:
@@ -14,8 +14,9 @@ Dependencies:
 - Crossbar.io 0.10.1
 - Autobahn|Python 0.9.5
 - Autobahn|JS 0.9.4
+- InfluxDB
 
-Backend (DBMS, save broadcasted-over-the-network data to influxdb) and frontend (real2real proxy and JS clients events binder) main components are handled by Crossbar.io router, announcers (could be delocalizated) need valid credentials to join the network, as well as data managers like OHLC builders.
+Backend (DBMS, save broadcasted-over-the-network data to influxdb) and frontend (realm-2-realm proxy and JS clients events binder) main components are handled by Crossbar.io router, announcers (could be delocalized) needs valid credentials to join the network, as well as data managers like OHLC builders.
 
 Json static files are handled and mantained by data managers for fast resuming.
 
