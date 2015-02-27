@@ -12,7 +12,7 @@ function onchallenge (session, method, extra) {
 }
 
 var connection = new autobahn.Connection({
-        url: 'ws://79.41.190.234:9000/ws',
+        url: 'ws://127.0.0.1:9000/ws',
         realm: 'datmarketPub',
         authmethods: ["wampcra"],
         authid: user,
